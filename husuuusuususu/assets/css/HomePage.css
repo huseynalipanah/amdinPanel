@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: orangered;
+    padding: 20px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#container div {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color:orange;
+
+    width: 200px;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 14px;
+   
+}
+

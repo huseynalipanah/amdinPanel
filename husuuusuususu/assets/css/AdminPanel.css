@@ -1,0 +1,60 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: orangered;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kullanıcılar Bölümü */
+.users {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.user-card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    background-color: orange;
+
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.cont img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.cont p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.cont button, .form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    background-color:orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.cont button:hover, .form button:hover {
+    background-color: orangered;
+}
